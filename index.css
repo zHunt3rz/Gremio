@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    animation: color 8s infinite;
+}
+
+@keyframes color {
+    0% {color:white}
+    10% {color: red}
+    20% {color:white}
+    30% {color:red}
+    40% {color:white}
+    50% {color:red}
+    60% {color:white}
+    70% {color:red}
+    80% {color:white}
+    90% {color:red}
+    100% {color:white}
+}
+
+
+
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
